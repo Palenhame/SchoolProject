@@ -16,7 +16,7 @@ MPU6050 mpu(Wire);
 bool mpuOk = false;
 
 // ---------------- Detect config ----------------
-const float ACCEL_THRESHOLD = 1.0;   // g
+const float ACCEL_THRESHOLD = 1.5;   // g
 const float RESET_FACTOR   = 0.6;    // гистерезис
 const unsigned long COOLDOWN = 3000; // ms между событиями
 unsigned long lastTriggerTime = 0;
