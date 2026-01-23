@@ -4,8 +4,8 @@
 #include <MPU6050_light.h>
 
 // ---------------- WiFi ----------------
-const char* ssid = "Redmi_A209";
-const char* password = "Ar020709";
+const char* ssid = "iPhone (Артемий)";
+const char* password = "aaaaaaaa";
 
 // ---------------- Server URLs ----------------
 const char* urlX = "http://braselet.kzhivaev.ru/api/use/activate/0";
